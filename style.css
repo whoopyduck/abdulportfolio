@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans&family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 98vw;
+    background-color: rgb(255, 255, 255);
+}
+.head{
+    height: 100vh;
+    z-index: -1;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left a {
+    text-decoration: none;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', ' Noto Sans';
+}
+
+.right a {
+    padding: 8px 12px;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: ' Noto Sans';
+}
+
+.right a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.right a:hover::after {
+    width: 100%;
+}
+.text-box{
+    height: 90vh;
+    margin: 0 49px;
+    text-align: center;
+    font-family: ' Noto Sans';
+}
+.text-box h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: ' Noto Sans';
+}
+.text-box img{
+    text-align: center;
+    height: 250px;
+    width: 400px;
+    padding:0 0 0 20px;
+}
+.text-box p{
+    margin: 0 10%;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Poppins';
+}
+.text-box .hero-btn{
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 12px 35px;
+    transition: 0.5s;
+}
+
+.text-box .hero-btn:hover{
+    background-color: black;
+    color: white;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+    text-align: center;
+    padding: 25px 0px;
+}
+.footer .icons a{
+    color: black;
+}
+.footer .icons i{
+    padding: 10px 10px 0;
+}
+.desc{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.About{    
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.About h2{
+    padding: 0 0 10px;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.About p{
+    color: #000000;
+    padding: 0 0 25px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 20px
+}
+.about-col{
+    flex-basis: 40%;
+    padding: 30px;
+}
+.about-col img{
+    width: 30vw;
+    height: 52vh;
+    border-radius: 10px;
+}
+.hero-btn{
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 12px 35px;
+    transition: 0.5s;
+}
+.hero-btn:hover{
+    background-color: black;
+    color: white;
+}
+.card-container{
+    margin: 0 49px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 20rem;
+    margin: 30px 40px 30px 25px;
+    text-align: center;
+}
+.card-container .card img{
+    overflow: hidden;
+}
+.my-btn{
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 12px 35px;
+    transition: 0.5s;
+}
+.my-btn:hover{
+    background-color: black;
+    color: white;
+}
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+}
+.location iframe{
+    width: 100%;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 0%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-col div{
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col div .fa{
+    font-size: 28px;
+    margin: 10px;
+    margin-right: 30px;
+}
+.contact-col div p{
+    padding: 0;
+}
+.contact-col div h5{
+    text-decoration: none;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.contact-col div h5 a{
+    text-decoration: none;
+    color: #000000;
+}
